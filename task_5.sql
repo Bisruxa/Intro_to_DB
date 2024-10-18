@@ -1,5 +1,5 @@
 INSERT INTO customer(
-  "cutomer_id",
+  "customer_id",
   "customer_name",
   "email",
   "address")

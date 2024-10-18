@@ -11,7 +11,14 @@ CREATE TABLE Authors(
   author_id INT PRIMARY KEY,
   author_name VARCHAR(215)
 )
-CREATE TABLE Customer(
+CREATE TABLE Customers(
+  customer_id INT PRIMARY KEY
+  customer_name VARCHAR(215),
+  email VARCHAR(215),
+  address TEXT
+  
+)
+CREATE TABLE Orders(
   order_id INT PRIMARY KEY,
   customer_id INT FOREIGN KEY REFERENCES Customers(customer_id),
   order_date DATE

@@ -3,4 +3,4 @@ INSERT INTO customer(
   "customer_name",
   "email",
   "address")
-  VALUES(1,"Cole Badioo","cbaidoo@sandtech.com","123 Happiness Ave.")
+  VALUES(1,"Cole Baidoo","cbaidoo@sandtech.com","123 Happiness Ave.")

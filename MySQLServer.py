@@ -10,3 +10,8 @@ if mydb.is_connected():
   print("Connected to MySQL database")  
 else:
   print("error while connecting to MySQL database")
+mycursor = mydb.cursor()
+mycursor.execute("""
+      CREATE DATABASE IF NOT EXISTS alx_book_store(
+                 )
+                 """)

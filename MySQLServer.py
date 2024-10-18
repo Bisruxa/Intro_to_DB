@@ -17,7 +17,8 @@ try:
                  """) 
     print("Database 'alx_book_store' created successfully!")
 
-except Error as exception:
+except mysql.connector.Error as exception:
+
  print("Error while connecting to MySQL", exception)
 
 finally:
